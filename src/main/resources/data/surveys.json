@@ -1,0 +1,55 @@
+[
+  {
+    "name": "Test Survey",
+    "company": {
+      "id": "648b0032ee6d58390e862392",
+      "name": "Company 1"
+    },
+    "job": {
+      "id": "648b0033ee6d58390e862394",
+      "name": "Job 1",
+      "description": "Job 1",
+      "company": {
+        "id": "648b0032ee6d58390e862392",
+        "name": "Company 1"
+      }
+    },
+    "surveyQuestions": [
+      {
+        "question": "What is your favourite colour",
+        "expectedAnswer": [
+          "blue"
+        ],
+        "marks": 1,
+        "defaultMarks": 0
+      },
+      {
+        "question": "What are your favourite programming languages, specify three",
+        "expectedAnswer": [
+          "java",
+          "python",
+          "react"
+        ],
+        "marks": 1,
+        "defaultMarks": 0
+      },
+      {
+        "question": "What is your favourite ide",
+        "expectedAnswer": [
+          "intellij"
+        ],
+        "marks": 2,
+        "defaultMarks": 1
+      },
+      {
+        "question": "Select two statements which match your values\n1 Entrepreneurial\n2 Detail Oriented\n3 Disruptive\n4 Survival of the fittest\n5 By any means necessary",
+        "expectedAnswer": [
+          "disruptive",
+          "entrepreneurial"
+        ],
+        "marks": 2,
+        "defaultMarks": 0
+      }
+    ]
+  }
+]
